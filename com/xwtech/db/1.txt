@@ -1,4 +1,0 @@
-# test line
-hello world,Git.
-xwtec
-sinner
