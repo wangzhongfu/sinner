@@ -26,7 +26,8 @@ public class DaoMaster extends AbstractDaoMaster {
     public static void dropAllTables(SQLiteDatabase db, boolean ifExists) {
         PicCacheDao.dropTable(db, ifExists);
     }
-    
+   
+    /** 数据库生成帮助类*/
     public static abstract class OpenHelper extends SQLiteOpenHelper {
 
         public OpenHelper(Context context, String name, CursorFactory factory) {
