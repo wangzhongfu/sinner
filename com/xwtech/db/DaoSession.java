@@ -17,7 +17,8 @@ import com.xwtech.db.PicCacheDao;
 
 /**
  * {@inheritDoc}
- * 
+ * 作者：aaaa
+
  * @see de.greenrobot.dao.AbstractDaoSession
  */
 public class DaoSession extends AbstractDaoSession {
